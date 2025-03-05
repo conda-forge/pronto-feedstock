@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: pronto
-  version: 2.6.0
+  version: "2.7.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/pronto-${{ version }}.tar.gz
-  sha256: 8fb087a414a727f467e0fb479e024368a551be2c044f52b3f029b372c12266b5
+  sha256: 8454b89094f20eb74b3dadfd23d09ac3722a47d40c6ef3f6a1b462bc3faa030b
   patches:
     - fix-setup.patch
 
